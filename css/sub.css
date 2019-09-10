@@ -1,0 +1,539 @@
+@charset "utf-8";
+
+
+
+.btn_more:hover{
+	transition:.5s;
+	border:1px solid #182d4c !important;
+	background:#182d4c !important;
+}
+
+.btn_more:hover span.fusion-button-text{
+	color:#fff !important;
+}
+
+.certificate_list{
+	list-style: none !important;
+	padding:0 !important;
+	margin:0 !important;
+	border-top:1px solid #11273c;
+}
+
+.certificate_list li{
+	position: relative;	
+	padding:45px 20px;
+	border-bottom:1px solid #b5b5b5;
+	color:#323232;
+}
+
+.certificate_list strong{
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width:65%;
+	font-size:20px;
+	font-weight: 500;	
+}
+
+.certificate_list a{
+	position: absolute;
+	right:20px;
+	top:50%;
+	margin-top:-24px;
+	display: block;
+	width:154px;
+	height:48px;
+	line-height:46px;
+	font-size:16px;
+	font-weight: 400;
+	text-align:center;
+	border:1px solid #b5b5b5;
+	color:#323232;
+	background:#fff;
+	transition:.3s;
+}
+
+.certificate_list a:hover{
+	background:#182d4c;
+	border:1px solid #182d4c;
+	color:#fff;;
+}
+
+.pb{
+	padding-bottom:110px !important;
+}
+
+#content .bb_w h3{
+	border-bottom:2px solid #fff;
+}
+
+#content .tit_border.mobile{
+	display: none;
+}
+
+#content .tit_border.mobile h3{
+	border:none !important;
+}
+
+#content .tit_border.mobile h3 strong{
+	border-bottom:2px solid #fff;
+}
+
+.feasibility .circle{
+	position: relative;
+	text-align: center;
+}
+
+.feasibility .circle h5{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	z-index: 10;
+	color:#11273c !important;
+	width: 237px;
+	margin-left: -119px;
+	font-family: 'Montserrat';
+	text-decoration: underline;
+}	
+
+.feasibility.mineral .circle .fusion-text {
+	border-color: #e0e0e0;
+	background: #fff;
+}
+
+.feasibility .circle .fusion-text:before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+.feasibility.mineral .circle p{
+	color: #545454;
+}
+
+.feasibility .circle p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	color: #fff;
+}
+
+.feasibility .circle .fusion-text{
+	width: 237px;
+	height: 237px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	padding-top: 30px;
+	border: 1px solid #a0a8b1;
+	border-radius: 100%;
+	text-align: center;
+}
+
+
+.feasibility.mineral .circle:after{
+	right: -29.84%;
+	width: 59px;
+	height: 17px;
+	background: url(/images/back_arrow_03.png) no-repeat;
+}
+
+.feasibility.mineral .circle.fusion-column-last:after{
+	display: none;
+}
+
+.feasibility .circle:after{
+	content: '';
+	position: absolute;
+	top: 100px;
+	right: -27.84%;
+	width: 44px;
+	height: 18px;
+	background: url(/images/back_arrow.png);
+}
+
+.feasibility h4{
+	font-size:28px;
+	font-weight: 500;
+	color:#323232;
+}
+
+.feasibility .box{
+	border:1px solid #b7b7b7;
+	border-top:2px solid #353749;
+	padding:45px 0;
+	margin-bottom:50px !important;
+}
+
+.feasibility .box .fusion-text{
+	float:left;
+	width:50%;
+	padding:0 50px;
+	margin-bottom:30px;
+}
+
+.feasibility .box .fusion-text p{
+	position: relative;
+	font-size:18px;
+	font-weight: 500;
+	color:#323232;
+	letter-spacing: -1px;
+}
+
+.feasibility .box .fusion-text p:before{
+	content: '';
+	position: absolute;
+	top: 18px;
+	left: -15px;
+	width: 0;
+	height: 0;
+	margin-top: -8px;
+	border-top: 4px solid transparent;
+	border-right: 0;
+	border-bottom: 4px solid transparent;
+	border-left: 7px solid #323232;
+}
+
+.feasibility .bg p{
+	font-size:25px;
+	font-weight: 500;
+	color:#fff;
+	text-align: center;
+	padding:65px 0;
+}
+
+.text_at{
+	font-size:17px;
+	font-weight: 400;
+	line-height:1.6;
+	color:#666;
+}
+
+.text_b{
+	font-weight: 600;
+	color:#333;
+}
+
+@media only screen and (max-width: 1200px) {
+	
+	.feasibility .circle:after{
+		display: none;
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width: 1150px) {
+	
+	.prdt_sec07 .fusion-row{
+		background: url(/sj/wp-content/uploads/2019/05/prdt_cir_arrow.png) no-repeat center left 49%;
+		background-size:60px;
+	}
+	
+	.kt_01{
+		width:45% !important;
+		margin-right:10% !important;
+	}
+	
+	.kt_02{
+		width:45% !important;
+	}
+	
+}
+
+
+@media only screen and (max-width: 1024px) {
+	
+	.comp_list{
+		background:none;
+		padding:10% 5%;
+		height:auto;
+	}
+	
+	.comp_list03{
+		margin-bottom:20px !important;
+	}
+		
+	.exp_fbx{
+		width:70% !important;
+	}
+	
+	.exp_fbx:first-child{
+		width:30% !important;
+	}
+	
+	.prdt_bg{
+		background:url(/sj/wp-content/uploads/2019/06/prdt_bg02_m.jpg) no-repeat left top;
+		background-size:cover !important;
+	}
+	
+	.prdt_bg h4{
+		font-size:1.5em !important;
+	}
+	
+	.apply .s_title01_01 h4{
+		font-size:1.7em !important;
+	}
+	
+	.prdt_sec07 .fusion-row h5{
+		font-size:1.7em !important;
+	}
+	
+	.plan_list{
+		margin: 20px 0 0;
+	}
+	
+	.prdt_sec07 .fusion-row{
+		padding:5% 0 !important;
+	}
+
+	.kt_01{
+		border-bottom: 1px solid #11273c;
+		margin-bottom:28% !important;
+		padding-bottom:5%;
+	}
+
+	.kt_02{
+		margin-bottom:0 !important;
+		border-top:3px solid #11273c;
+		padding-top:5%;
+	}
+
+	.prdt_sec07 .fusion-row{
+		background:url(/sj/wp-content/uploads/2019/06/prdt_cir_arrowm.png) no-repeat top 50% center;
+		background-size:60px;
+	}
+	
+	.prdt_sec08 .fusion-text p .text_eng{
+		font-size:1.3em;
+	}
+	
+	.prdt_sec08 .fusion-text p{
+		font-size:1.1em;
+	}
+	
+	.last_list{
+		height:auto;
+		padding:10% 7%;
+		margin-bottom:0 !important;
+		margin-top:0 !important;
+		border-bottom:none !important;
+	}
+	
+	.last_list01{
+		margin-top:35px !important;
+	}
+	
+	.last_list h5{
+		font-size:1.5em;
+		margin-bottom:6% !important;
+	}
+	
+	.last_list02:before, .last_list03:before{
+		display: none;
+	}
+	
+	.last_bx{
+		padding: 13% 11%;
+	}
+	
+	.last_bx p{
+		font-size:1.3em;
+	}
+	
+	.last_bx p strong{
+		border:none;
+		padding:0 !important;
+	}
+	
+	#content .tit_border h3{
+		font-size:25px !important;
+		margin-bottom:26px !important;
+	}
+	
+	.machine h4{
+		margin-bottom:35px !important;
+		font-size:20px !important;
+	}
+	
+	.machine .imageframe-1 img{
+		width:100%;		
+	}
+	
+	.machine .fusion-text p{
+		font-size:12px;
+	}
+	
+	.machine .fusion-text p:before{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 0;
+		height: 0;
+		margin-top: -5px;
+		border-top: 4px solid transparent;
+		border-right: 0;
+		border-bottom: 4px solid transparent;
+		border-left: 7px solid #323232;
+	}
+	
+	.machine .imageframe-2{
+		width:48% !important;;
+		margin-right:4%;
+	}
+	
+	.machine .imageframe-3{
+		width:48% !important;
+	}
+	
+	.machine .imageframe-2 img, .machine .imageframe-3 img{
+		width:100%;
+	}
+	
+	.machine .imageframe-4{
+		width:100% !important;
+	}
+	
+	.machine .imageframe-4 img{
+		width:100%;
+		height:auto;
+	}
+	
+	.machine .imageframe-1:before, .machine .imageframe-1:after{
+		font-size:10px;
+	}
+	
+	.machine{
+		margin:50px 0 !important;
+	}
+	
+	.feasibility .circle{
+		width: 48.125% !important;
+		margin-bottom: 12px !important;
+	}
+	
+	.feasibility .circle:nth-child(odd){
+		margin-right: 3.75% !important;
+	}
+	
+	.feasibility .fusion-one-fourth + .fusion-layout-column h4{
+		margin:45px 0 25px !important;
+		font-size:20px !important;
+	}
+	
+	.feasibility .box .fusion-text{
+		float:none;
+		width:100%;
+		padding:0 10%;
+		margin-bottom:15px;
+	}
+	
+	.feasibility .box .fusion-text p{
+		font-size:13px;
+	}
+	
+	.feasibility .box .fusion-text p:before{
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: -15px;
+		width: 0;
+		height: 0;
+		margin-top: -8px;
+		border-top: 3px solid transparent;
+		border-right: 0;
+		border-bottom: 3px solid transparent;
+		border-left: 6px solid #323232;
+	}
+	
+	.feasibility .box{
+		padding:6% 0;
+		margin-bottom:2% !important;
+	}
+	
+	.feasibility .bg p{
+		font-size:18px;
+	}
+	
+	.feasibility .bg{
+		margin-bottom:2% !important;
+	}
+	
+}
+
+@media only screen and (max-width: 720px) {
+
+	#content .tit_border.mobile{
+		display: block;
+	}
+	
+	#content .tit_border.pc{
+		display: none;
+	}
+	
+	.feasibility .circle .fusion-text {
+		width: 153px;
+		height: 153px;
+		padding-top: 20px;
+	}
+
+	.feasibility .circle h5{
+		top: 25px;
+		font-size: 13px !important;
+	}
+
+	.feasibility .circle p{
+		font-size:13px;
+	}
+
+	.feasibility.mineral .circle:after{
+		display: none;
+	}
+	
+
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.certificate_list li{
+		padding:10% 3%;
+	}
+	
+	.certificate_list strong{
+		font-size:1.3em;
+		width:55%;
+	}
+	
+	.certificate_list a{
+		right:3%;
+		top:50%;
+		margin-top:-20px;
+		width:85px;
+		height:40px;
+		line-height:38px;
+		font-size:0.8em;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
